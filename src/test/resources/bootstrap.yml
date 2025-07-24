@@ -2,6 +2,12 @@ spring:
   cloud:
     config:
       enabled: false
+    gateway:
+      routes:
+        - id: test-route
+          uri: http://example.com
+          predicates:
+            - Path=/test/**
       
 eureka:
   client:
