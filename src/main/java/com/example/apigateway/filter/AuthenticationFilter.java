@@ -41,6 +41,8 @@ public class AuthenticationFilter extends AbstractGatewayFilterFactory<Authentic
             // 2. 토큰을 추출하고 유효성 검사
             String authorizationHeader = request.getHeaders().get(HttpHeaders.AUTHORIZATION).get(0);
             String token = authorizationHeader.replace("Bearer ", "");
+            
+            logger.info("토큰 {}" , token);
 
             if (!jwtUtil.validateToken(token)) {
                 return onError(exchange, "JWT Token is not valid", HttpStatus.UNAUTHORIZED);
@@ -63,7 +65,7 @@ public class AuthenticationFilter extends AbstractGatewayFilterFactory<Authentic
     private Mono<Void> onError(ServerWebExchange exchange, String err, HttpStatus httpStatus) {
         ServerHttpResponse response = exchange.getResponse();
         response.setStatusCode(httpStatus);
-        log.error(err);
+        logger.info(err);
         return response.setComplete();
     }
 

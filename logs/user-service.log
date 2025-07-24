@@ -1,14 +1,48 @@
-2025-07-10 17:43:36.423 [reactor-http-nio-1] INFO  c.e.a.filter.AuthenticationFilter - 진입 /users/logout
-2025-07-10 17:43:36.424 [reactor-http-nio-1] INFO  c.e.a.filter.AuthenticationFilter - id :  jbg4354
-2025-07-10 17:50:11.170 [reactor-http-nio-7] INFO  c.e.a.filter.AuthenticationFilter - 진입 /users/logout
-2025-07-10 17:50:11.170 [reactor-http-nio-7] INFO  c.e.a.filter.AuthenticationFilter - id :  jbg4354
-2025-07-10 17:50:11.177 [reactor-http-nio-7] INFO  c.e.a.filter.AuthenticationFilter - 헤더세팅
-2025-07-10 17:57:42.048 [reactor-http-nio-4] INFO  c.e.a.filter.AuthenticationFilter - 진입 /users/logout
-2025-07-10 17:57:42.065 [reactor-http-nio-4] INFO  c.e.a.filter.AuthenticationFilter - id :  jbg4354
-2025-07-10 17:57:42.065 [reactor-http-nio-4] INFO  c.e.a.filter.AuthenticationFilter - 헤더세팅
-2025-07-10 18:01:13.982 [reactor-http-nio-6] INFO  c.e.a.filter.AuthenticationFilter - 진입 /users/logout
-2025-07-10 18:01:13.982 [reactor-http-nio-6] INFO  c.e.a.filter.AuthenticationFilter - id :  jbg4354
-2025-07-10 18:01:13.982 [reactor-http-nio-6] INFO  c.e.a.filter.AuthenticationFilter - 헤더세팅
-2025-07-10 18:35:09.933 [reactor-http-nio-1] INFO  c.e.a.filter.AuthenticationFilter - 진입 /users/logout
-2025-07-10 18:35:09.939 [reactor-http-nio-1] INFO  c.e.a.filter.AuthenticationFilter - id :  jbg4354
-2025-07-10 18:35:09.940 [reactor-http-nio-1] INFO  c.e.a.filter.AuthenticationFilter - 헤더세팅
+2025-07-24 08:40:12.226 [reactor-http-nio-8] INFO  c.e.a.filter.AuthenticationFilter - 토큰 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0IiwiaWF0IjoxNzUzMjQxNTk3LCJleHAiOjE3NTMyNDUxOTd9.Vk1yT8IrBA9WDT7528Q-1cVgspmDhUmEGKVkTRELVvA
+2025-07-24 08:40:12.226 [reactor-http-nio-7] INFO  c.e.a.filter.AuthenticationFilter - 토큰 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0IiwiaWF0IjoxNzUzMjQxNTk3LCJleHAiOjE3NTMyNDUxOTd9.Vk1yT8IrBA9WDT7528Q-1cVgspmDhUmEGKVkTRELVvA
+2025-07-24 08:40:12.233 [reactor-http-nio-8] INFO  c.e.a.filter.AuthenticationFilter - JWT Token is not valid
+2025-07-24 08:40:12.233 [reactor-http-nio-7] INFO  c.e.a.filter.AuthenticationFilter - JWT Token is not valid
+2025-07-24 08:40:50.078 [reactor-http-nio-5] INFO  c.e.a.filter.AuthenticationFilter - 토큰 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0IiwiaWF0IjoxNzUzMzE0MDE5LCJleHAiOjE3NTMzMTc2MTl9.mzXBiwbLZOEUA9Allluw2UcK35-_lgfwGMi3tt1LmsE
+2025-07-24 08:40:50.078 [reactor-http-nio-4] INFO  c.e.a.filter.AuthenticationFilter - 토큰 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0IiwiaWF0IjoxNzUzMzE0MDE5LCJleHAiOjE3NTMzMTc2MTl9.mzXBiwbLZOEUA9Allluw2UcK35-_lgfwGMi3tt1LmsE
+2025-07-24 08:40:50.080 [reactor-http-nio-5] INFO  c.e.a.filter.AuthenticationFilter - 진입 /products
+2025-07-24 08:40:50.080 [reactor-http-nio-4] INFO  c.e.a.filter.AuthenticationFilter - 진입 /products
+2025-07-24 08:40:50.081 [reactor-http-nio-5] INFO  c.e.a.filter.AuthenticationFilter - id :  test
+2025-07-24 08:40:50.081 [reactor-http-nio-5] INFO  c.e.a.filter.AuthenticationFilter - 헤더세팅
+2025-07-24 08:40:50.081 [reactor-http-nio-4] INFO  c.e.a.filter.AuthenticationFilter - id :  test
+2025-07-24 08:40:50.081 [reactor-http-nio-4] INFO  c.e.a.filter.AuthenticationFilter - 헤더세팅
+2025-07-24 08:40:50.868 [reactor-http-nio-6] INFO  c.e.a.filter.AuthenticationFilter - 토큰 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0IiwiaWF0IjoxNzUzMzE0MDE5LCJleHAiOjE3NTMzMTc2MTl9.mzXBiwbLZOEUA9Allluw2UcK35-_lgfwGMi3tt1LmsE
+2025-07-24 08:40:50.868 [reactor-http-nio-7] INFO  c.e.a.filter.AuthenticationFilter - 토큰 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0IiwiaWF0IjoxNzUzMzE0MDE5LCJleHAiOjE3NTMzMTc2MTl9.mzXBiwbLZOEUA9Allluw2UcK35-_lgfwGMi3tt1LmsE
+2025-07-24 08:40:50.870 [reactor-http-nio-7] INFO  c.e.a.filter.AuthenticationFilter - 진입 /products/1
+2025-07-24 08:40:50.870 [reactor-http-nio-6] INFO  c.e.a.filter.AuthenticationFilter - 진입 /products/1
+2025-07-24 08:40:50.871 [reactor-http-nio-6] INFO  c.e.a.filter.AuthenticationFilter - id :  test
+2025-07-24 08:40:50.871 [reactor-http-nio-7] INFO  c.e.a.filter.AuthenticationFilter - id :  test
+2025-07-24 08:40:50.872 [reactor-http-nio-6] INFO  c.e.a.filter.AuthenticationFilter - 헤더세팅
+2025-07-24 08:40:50.872 [reactor-http-nio-7] INFO  c.e.a.filter.AuthenticationFilter - 헤더세팅
+2025-07-24 08:42:18.653 [reactor-http-nio-8] INFO  c.e.a.filter.AuthenticationFilter - 토큰 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0IiwiaWF0IjoxNzUzMzE0MDE5LCJleHAiOjE3NTMzMTc2MTl9.mzXBiwbLZOEUA9Allluw2UcK35-_lgfwGMi3tt1LmsE
+2025-07-24 08:42:18.654 [reactor-http-nio-8] INFO  c.e.a.filter.AuthenticationFilter - 진입 /carts/add
+2025-07-24 08:42:18.656 [reactor-http-nio-8] INFO  c.e.a.filter.AuthenticationFilter - id :  test
+2025-07-24 08:42:18.656 [reactor-http-nio-8] INFO  c.e.a.filter.AuthenticationFilter - 헤더세팅
+2025-07-24 08:42:28.811 [reactor-http-nio-1] INFO  c.e.a.filter.AuthenticationFilter - 토큰 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0IiwiaWF0IjoxNzUzMzE0MDE5LCJleHAiOjE3NTMzMTc2MTl9.mzXBiwbLZOEUA9Allluw2UcK35-_lgfwGMi3tt1LmsE
+2025-07-24 08:42:28.813 [reactor-http-nio-1] INFO  c.e.a.filter.AuthenticationFilter - 진입 /carts/add
+2025-07-24 08:42:28.815 [reactor-http-nio-1] INFO  c.e.a.filter.AuthenticationFilter - id :  test
+2025-07-24 08:42:28.816 [reactor-http-nio-1] INFO  c.e.a.filter.AuthenticationFilter - 헤더세팅
+2025-07-24 08:42:45.050 [reactor-http-nio-2] INFO  c.e.a.filter.AuthenticationFilter - 토큰 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0IiwiaWF0IjoxNzUzMzE0MDE5LCJleHAiOjE3NTMzMTc2MTl9.mzXBiwbLZOEUA9Allluw2UcK35-_lgfwGMi3tt1LmsE
+2025-07-24 08:42:45.051 [reactor-http-nio-2] INFO  c.e.a.filter.AuthenticationFilter - 진입 /carts/add
+2025-07-24 08:42:45.052 [reactor-http-nio-2] INFO  c.e.a.filter.AuthenticationFilter - id :  test
+2025-07-24 08:42:45.052 [reactor-http-nio-2] INFO  c.e.a.filter.AuthenticationFilter - 헤더세팅
+2025-07-24 08:46:01.760 [reactor-http-nio-3] INFO  c.e.a.filter.AuthenticationFilter - 토큰 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0IiwiaWF0IjoxNzUzMzE0MDE5LCJleHAiOjE3NTMzMTc2MTl9.mzXBiwbLZOEUA9Allluw2UcK35-_lgfwGMi3tt1LmsE
+2025-07-24 08:46:01.761 [reactor-http-nio-3] INFO  c.e.a.filter.AuthenticationFilter - 진입 /carts/add
+2025-07-24 08:46:01.763 [reactor-http-nio-3] INFO  c.e.a.filter.AuthenticationFilter - id :  test
+2025-07-24 08:46:01.763 [reactor-http-nio-3] INFO  c.e.a.filter.AuthenticationFilter - 헤더세팅
+2025-07-24 08:47:05.903 [reactor-http-nio-4] INFO  c.e.a.filter.AuthenticationFilter - 토큰 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0IiwiaWF0IjoxNzUzMzE0MDE5LCJleHAiOjE3NTMzMTc2MTl9.mzXBiwbLZOEUA9Allluw2UcK35-_lgfwGMi3tt1LmsE
+2025-07-24 08:47:05.904 [reactor-http-nio-4] INFO  c.e.a.filter.AuthenticationFilter - 진입 /carts/add
+2025-07-24 08:47:05.905 [reactor-http-nio-4] INFO  c.e.a.filter.AuthenticationFilter - id :  test
+2025-07-24 08:47:05.905 [reactor-http-nio-4] INFO  c.e.a.filter.AuthenticationFilter - 헤더세팅
+2025-07-24 08:50:29.102 [reactor-http-nio-5] INFO  c.e.a.filter.AuthenticationFilter - 토큰 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0IiwiaWF0IjoxNzUzMzE0MDE5LCJleHAiOjE3NTMzMTc2MTl9.mzXBiwbLZOEUA9Allluw2UcK35-_lgfwGMi3tt1LmsE
+2025-07-24 08:50:29.105 [reactor-http-nio-5] INFO  c.e.a.filter.AuthenticationFilter - 진입 /carts/add
+2025-07-24 08:50:29.106 [reactor-http-nio-5] INFO  c.e.a.filter.AuthenticationFilter - id :  test
+2025-07-24 08:50:29.106 [reactor-http-nio-5] INFO  c.e.a.filter.AuthenticationFilter - 헤더세팅
+2025-07-24 13:56:49.344 [reactor-http-nio-7] INFO  c.e.a.filter.AuthenticationFilter - 토큰 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0IiwiaWF0IjoxNzUzMzE0MDE5LCJleHAiOjE3NTMzMTc2MTl9.mzXBiwbLZOEUA9Allluw2UcK35-_lgfwGMi3tt1LmsE
+2025-07-24 13:56:49.344 [reactor-http-nio-6] INFO  c.e.a.filter.AuthenticationFilter - 토큰 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0IiwiaWF0IjoxNzUzMzE0MDE5LCJleHAiOjE3NTMzMTc2MTl9.mzXBiwbLZOEUA9Allluw2UcK35-_lgfwGMi3tt1LmsE
+2025-07-24 13:56:49.348 [reactor-http-nio-7] INFO  c.e.a.filter.AuthenticationFilter - JWT Token is not valid
+2025-07-24 13:56:49.348 [reactor-http-nio-6] INFO  c.e.a.filter.AuthenticationFilter - JWT Token is not valid
