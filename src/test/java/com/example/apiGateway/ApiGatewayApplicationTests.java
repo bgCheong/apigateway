@@ -13,6 +13,8 @@ class ApiGatewayApplicationTests {
 	@MockBean
 	private JwtUtil jwtUtil; 
 	
+	
+	
 	@Test
 	void contextLoads() {
 	}
