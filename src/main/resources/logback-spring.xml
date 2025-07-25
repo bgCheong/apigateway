@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 
-    <property name="LOG_PATH" value="./logs"/>
+    <springProfile name="local">
+        <property name="LOG_PATH" value="./logs"/>
+    </springProfile>
+
+    <springProfile name="docker, prod">
+        <property name="LOG_PATH" value="/var/log/gateway"/>
+    </springProfile>
 
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
@@ -10,8 +16,7 @@
     </appender>
 
     <appender name="API_SERVICE_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${LOG_PATH}/api-service.log</file>
-        <encoder>
+        <file>${LOG_PATH}/api-service.log</file> <encoder>
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
@@ -22,8 +27,7 @@
 
     <logger name="com.example.apigateway.filter.AuthenticationFilter" level="INFO" additivity="false">
         <appender-ref ref="API_SERVICE_APPENDER"/>
-    </logger>
-
+        <appender-ref ref="CONSOLE"/> </logger>
 
     <root level="INFO">
         <appender-ref ref="CONSOLE"/>
