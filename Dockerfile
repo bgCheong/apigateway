@@ -51,4 +51,4 @@ USER ${USERNAME}
 ENV SPRING_PROFILES_ACTIVE=docker
 
 # 컨테이너 실행 명령어
-ENTRYPOINT ["java", "-jar", "gateway-service-app"]
+ENTRYPOINT ["java", "-jar", "gateway-service-app.jar"]
