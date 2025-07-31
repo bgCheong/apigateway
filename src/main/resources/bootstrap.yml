@@ -1,3 +1,21 @@
 spring:
   application:
     name: api-gateway 
+
+# =======================================
+# --- local 프로필 활성화 시 사용될 설정 ---
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+    import: "configserver:http://localhost:8888"
+
+# =======================================
+# --- docker 프로필 활성화 시 사용될 설정 ---
+---
+spring:
+  config:
+    activate:
+      on-profile: docker
+    import: "configserver:http://config-service:8888"
